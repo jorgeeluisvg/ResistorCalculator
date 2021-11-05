@@ -12,7 +12,7 @@ public class menu extends JFrame{
         setSize(1290, 780);
         setLayout(null);
         getContentPane().setBackground(Color.decode("#e2e2e2"));
-        this.setVisible(true);
+
 
     }
 
@@ -984,6 +984,7 @@ public class menu extends JFrame{
             }
         });
         add(bcalc);
+        this.setVisible(true);
 
     }
 
